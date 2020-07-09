@@ -1,0 +1,28 @@
+.justify-content-around{
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    color: #421609;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-family: Georgia, serif;
+}
+
+
+.card-text{
+    font-family: Georgia, serif;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 75px;
+    }
+  }
+
+.btn{
+    padding: 0px 30px 0px 30px;
+}

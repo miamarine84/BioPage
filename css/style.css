@@ -1,0 +1,76 @@
+*{
+    background-color: #F0F8FF;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.about-me{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container-fluid{
+    background-image: url('https://thumbs.dreamstime.com/b/technology-tree-vector-linear-icon-isolated-transparent-background-transparency-concept-can-be-used-web-mobile-130974703.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron:hover .lead{
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+
+}
+
+.lead{
+    font-family: Georgia, serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #A5411E;
+    font-weight: 400;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.pg-bottom{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #421609;
+    margin-bottom: 50px;
+}
+
+.box-bottom{
+    border: 3px dotted #66640C;
+    text-align: center;
+    
+}
+
+.footer{
+    text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 75px;
+    }
+    .container-fluid{
+        width: 100%;
+        height: 400px;
+    }
+  }
+
+.btn{
+    padding: 0px 30px 0px 30px;
+}
+
