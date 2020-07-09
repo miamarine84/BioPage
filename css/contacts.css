@@ -1,3 +1,10 @@
+h4#allow{
+  color: #099209;
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -25,7 +32,7 @@ input[type=text], select, textarea {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    margin-top: 20px;
   }
 
   .footer{
