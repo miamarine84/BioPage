@@ -7,7 +7,9 @@ h5{
     text-decoration: underline solid rgb(68, 68, 68);
     font-family: Georgia, serif;
 }
-
+.border-light{
+    align-items: center
+}
 
 .card-text{
     font-family: Georgia, serif;
